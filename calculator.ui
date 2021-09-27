@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Calculator</class>
+ <widget class="QMainWindow" name="Calculator">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>520</width>
+    <height>501</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>CalculatorPro</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="TSettingModelSettingsWidget" name="settings" native="true">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>51</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>1600000</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="TDsiplayModelSettingsWidget" name="display" native="true">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>90</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="TAppliedFeaturedSettingsWidget" name="appliedFeatured" native="true">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>56</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <property name="spacing">
+       <number>6</number>
+      </property>
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>6</number>
+      </property>
+      <item>
+       <widget class="TNumberModelSettingsWidget" name="numbers" native="true">
+        <property name="minimumSize">
+         <size>
+          <width>237</width>
+          <height>236</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="TMainOperatorsSettingsWidget" name="mainOperators" native="true">
+        <property name="minimumSize">
+         <size>
+          <width>237</width>
+          <height>236</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>520</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>TNumberModelSettingsWidget</class>
+   <extends>QWidget</extends>
+   <header>../ViewControllers/t_number_model_settings_widget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>TMainOperatorsSettingsWidget</class>
+   <extends>QWidget</extends>
+   <header>../ViewControllers/t_main_operators_settings_widget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>TAppliedFeaturedSettingsWidget</class>
+   <extends>QWidget</extends>
+   <header>../ViewControllers/t_applied_featured_settings_widget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>TDsiplayModelSettingsWidget</class>
+   <extends>QWidget</extends>
+   <header>../ViewControllers/t_dsiplay_model_settings_widget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>TSettingModelSettingsWidget</class>
+   <extends>QWidget</extends>
+   <header>../ViewControllers/t_setting_model_settings_widget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

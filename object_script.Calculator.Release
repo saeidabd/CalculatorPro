@@ -1,0 +1,14 @@
+release/t_main_operators_calc.o
+release/t_applied_featured_settings_widget.o
+release/t_dsiplay_model_settings_widget.o
+release/t_main_operators_settings_widget.o
+release/t_number_model_settings_widget.o
+release/t_setting_model_settings_widget.o
+release/main.o
+release/calculator.o
+release/moc_t_applied_featured_settings_widget.o
+release/moc_t_dsiplay_model_settings_widget.o
+release/moc_t_main_operators_settings_widget.o
+release/moc_t_number_model_settings_widget.o
+release/moc_t_setting_model_settings_widget.o
+release/moc_calculator.o
