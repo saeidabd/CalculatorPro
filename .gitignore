@@ -6,4 +6,4 @@ debug/
 /Makefile.Debug
 /Makefile.Release
 /object_script.*
-/ui_t_**
+/ui_**
