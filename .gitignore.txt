@@ -1,9 +1,0 @@
-release/
-debug/
-.qmake.stash
-Calculator.pro.user
-Makefile
-Makefile.Debug
-Makefile.Release
-object_script.*
-ui_t_**
