@@ -16,57 +16,57 @@ TNumberModelSettingsWidget::~TNumberModelSettingsWidget()
 
 void TNumberModelSettingsWidget::on_num1Btn_clicked()
 {
-    emit numberBtn(ui->num1Btn->text());
+    emit numberBtn("1");
 }
 
 void TNumberModelSettingsWidget::on_num2Btn_clicked()
 {
-    emit numberBtn(ui->num2Btn->text());
+    emit numberBtn("2");
 }
 
 void TNumberModelSettingsWidget::on_num3Btn_clicked()
 {
-    emit numberBtn(ui->num3Btn->text());
+    emit numberBtn("3");
 }
 
 void TNumberModelSettingsWidget::on_num4Btn_clicked()
 {
-    emit numberBtn(ui->num4Btn->text());
+    emit numberBtn("4");
 }
 
 void TNumberModelSettingsWidget::on_num5Btn_clicked()
 {
-    emit numberBtn(ui->num5Btn->text());
+    emit numberBtn("5");
 }
 
 void TNumberModelSettingsWidget::on_num6Btn_clicked()
 {
-    emit numberBtn(ui->num6Btn->text());
+    emit numberBtn("6");
 }
 
 void TNumberModelSettingsWidget::on_num7Btn_clicked()
 {
-    emit numberBtn(ui->num7Btn->text());
+    emit numberBtn("7");
 }
 
 void TNumberModelSettingsWidget::on_num8Btn_clicked()
 {
-    emit numberBtn(ui->num8Btn->text());
+    emit numberBtn("8");
 }
 
 void TNumberModelSettingsWidget::on_num9Btn_clicked()
 {
-    emit numberBtn(ui->num9Btn->text());
+    emit numberBtn("9");
 }
 
 void TNumberModelSettingsWidget::on_num0Btn_clicked()
 {
-    emit numberBtn(ui->num0Btn->text());
+    emit numberBtn("0");
 }
 
 void TNumberModelSettingsWidget::on_decBtn_clicked()
 {
-    emit decBtnSignal(ui->decBtn->text());
+    emit decBtnSignal(".");
 }
 
 void TNumberModelSettingsWidget::on_posNegBtn_clicked()
