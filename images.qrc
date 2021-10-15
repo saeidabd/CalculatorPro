@@ -1,2 +1,16 @@
-<!DOCTYPE RCC>
-<RCC version="1.0"/>
+<RCC>
+    <qresource prefix="/">
+        <file>Images/0number.png</file>
+        <file>Images/1number.png</file>
+        <file>Images/2number.png</file>
+        <file>Images/3number.png</file>
+        <file>Images/4number.png</file>
+        <file>Images/5number.png</file>
+        <file>Images/6number.png</file>
+        <file>Images/7number.png</file>
+        <file>Images/8number.png</file>
+        <file>Images/9number.png</file>
+        <file>Images/decNumber.png</file>
+        <file>Images/posNegNumber.png</file>
+    </qresource>
+</RCC>
